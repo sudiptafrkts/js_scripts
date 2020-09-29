@@ -5,12 +5,11 @@ require("firebase/firestore");
 const collection_name = 'truck';
 const directory = 'usit_'+collection_name+'_data';
 const filename = directory+'.json';
-// var outfilename = filename.replace('data','data_out');
 
 var app = firebase.initializeApp({
-    apiKey: "AIzaSyBNDv7wSlq6vXwMX_7DPJbxMi2gRudrpD0",
-    authDomain: "sample-b1180.firebaseapp.com",
-    projectId: "sample-b1180"
+    apiKey: "",
+    authDomain: "",
+    projectId: ""
   });
   
 const db = firebase.firestore();
